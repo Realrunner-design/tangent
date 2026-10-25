@@ -10,3 +10,6 @@ Tangent tracks all 8 World Marathon Majors: entry windows, ballot deadlines, mil
 - **Paywall reality:** the paid unlock on a static public page is honor-system — the gate lives in the page code and can be bypassed by a determined visitor. There is deliberately no stronger enforcement in this build.
 - **Map tiles:** tiles come from OpenStreetMap (fine for light use). Before promoting the link widely, switch to a commercial tile provider key.
 - **Payments:** the buy button intentionally reads "Coming soon" until a price is chosen and a Stripe payment link is supplied.
+## Rollback
+
+To roll back, restore the previous index.html from the repo's git history: open Commits, open the earlier index.html version, then restore/re-upload it. The pre-push version is always recoverable from history.
